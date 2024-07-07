@@ -10,7 +10,7 @@ import Contact from '../components/Contact/Contact';
 import BestCabs from '../components/BestCabs/BestCabs';
 import Testimonials from '../components/Testimonials/Testimonials';
 
-const page = () => {
+const Page = () => {
   useEffect(() => {
     AOS.init({
       offset: 100,
@@ -31,4 +31,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
