@@ -45,7 +45,7 @@ export const Navlinks = [
 ]
 const Navbar = () => {
     const [showMenu, setShowMenu] = useState(false);
-    const { theme } = useTheme(); 
+    const { theme } = useTheme('dark'); 
     const [logoImage, setLogoImage] = useState()
     const pathname = usePathname();
 
