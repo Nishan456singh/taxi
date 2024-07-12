@@ -44,7 +44,7 @@ const Hero = () => {
                     www.a1airporter.com
                 </p>
                 <div data-aos="zoom-in-right" data-aos-duration="1000" className='relative max-h-[260px] md:max-h-[460px] scale-75 md:scale-125 translate-y-10 md:translate-y-0'>
-                    <Image src={car} alt='car' layout='fill' objectFit='contain' />
+                    <Image src={car} alt='car' layout='responsive' />
                 </div>
             </div>
         </div>
